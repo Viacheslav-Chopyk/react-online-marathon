@@ -2,6 +2,7 @@
 //and returns a new array consisting only of numeric elements of arrays arr1 and arr2.
 // Function example:
 // combineArray([12, "User01", 22, true, -8], ["Index", 6, null, 15]));  // [12, 22, -8, 6, 15]
+
 const arr1 = [12, "user01", 22, true, -8];
 const arr2 = ["Index", 6, null, 15];
 function combineArray(arr1, arr2) {
