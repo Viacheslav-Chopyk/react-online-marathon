@@ -4,10 +4,4 @@ const product = function () {
     }, this.product);
 };
 
-const contextObj = {
-    product: 10
-}
-
-const getProduct = function (a, b) {
-    return product.apply(contextObj, [a, b, 2, 3])
-}
+const getProduct = product.bind({ product: 10 }, 2, 3);
