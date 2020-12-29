@@ -9,5 +9,7 @@
 // b
 
 function* take(n, iterable) {
-    // your code here
+    for (let i = 0; i < n; i++) {
+        yield iterable[i];
+    }
 }

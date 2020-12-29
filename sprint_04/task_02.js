@@ -2,5 +2,11 @@
 // resolves with the sum of the two arguments if they are Numbers, or rejects with the message "Error!" otherwise.
 
 function add(x, y) {
-    // your code
+    return new Promise((resolve, reject) => {
+        if (typeof x === 'number' && typeof y === 'number') {
+            resolve(x + y);
+        } else {
+            reject('Error!');
+        }
+    });
 }
