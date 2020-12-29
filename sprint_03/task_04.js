@@ -1,3 +1,13 @@
+// Implement the Student class, the constructor of which accepts 2 parameters fullName - the name and surname of the student, direction - the direction in which he studies.
+// Create a showfullname() method that returns the student's first and last name.
+// Create a nameIncludes(data) method that, using the showFullName() method, checks for the text data argument in the student’s name and 
+// returns true if a match is found or false if not found.
+// Create a static studentBuilder() method that returns a new instance of the class named ‘Ihor Kohut’ and the direction ‘qc’.
+// Create a getter and setter direction() to read and specify the direction field.
+// Create an instance of class stud1 named 'Ivan Petrenko' and direction 'web'.
+// Create an instance of class stud2 named 'Sergiy Koval' and direction 'python'.
+// Create an instance of the stud3 class named ‘Ihor Kohut’ and the direction ‘qc’ using the static studentBuilder() method.
+
 const Checker = require('./Checker.js');
 
 class Student {
