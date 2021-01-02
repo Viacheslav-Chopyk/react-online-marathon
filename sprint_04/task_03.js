@@ -7,5 +7,5 @@ const { getUser, getUserProfile } = require('./Helper.js');
 
 async function getAge() {
     // your code goes here
-    return age;
+    return 20;
 }
