@@ -1,0 +1,8 @@
+{
+  "name": "webui-marathon",
+  "version": "1.0.0",
+  "author": "IT Academy",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
+}
